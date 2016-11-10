@@ -1,0 +1,10 @@
+﻿<Window x:Class="JsonViewerDemo.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:jsonViewer="clr-namespace:JsonControls.JsonViewer;assembly=JsonControls"
+        Title="MainWindow" Height="350" Width="525">
+    <DockPanel>
+        <TextBlock Name="TextBlock" DockPanel.Dock="Top"></TextBlock>
+        <jsonViewer:JsonViewer x:Name="JsonViewer" DockPanel.Dock="Bottom" />
+    </DockPanel>
+</Window>
